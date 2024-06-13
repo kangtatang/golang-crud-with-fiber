@@ -1,0 +1,9 @@
+app:
+  port: 3009
+
+database:
+  user: postgres
+  password: 123456
+  dbname: godata
+  host: localhost
+  port: 5432
