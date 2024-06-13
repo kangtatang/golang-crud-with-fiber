@@ -1,14 +1,13 @@
 # Informasi Aplikasi
 
- ini adalah Alikasi BAck end sederhana: sistem manajemen karyawan yang memungkinkan pengguna untuk membuat, memperbarui, menghapus, dan melihat data karyawan, departemen, dan posisi.
+ ini adalah Aplikasi Back end sederhana: sistem manajemen karyawan yang memungkinkan pengguna untuk membuat, memperbarui, menghapus, dan melihat data karyawan, departemen, dan posisi.
 
 ## Library yang Digunakan
 
-- [github.com/gofiber/fiber/v2](https://github.com/gofiber/fiber): Web framework yang digunakan untuk membangun aplikasi ini.
-- [github.com/google/uuid](https://github.com/google/uuid): Library untuk menghasilkan UUID.
-- [github.com/jinzhu/inflection](https://github.com/jinzhu/inflection): Library untuk menangani infleksi kata.
-- [github.com/jinzhu/now](https://github.com/jinzhu/now): Library untuk memanipulasi waktu.
-- [github.com/jackc/pgx/v5](https://github.com/jackc/pgx): Driver PostgreSQL untuk Go.
+- go get github.com/gofiber/fiber/v2
+- go get github.com/spf13/viper
+- go get gorm.io/gorm
+- go get gorm.io/driver/postgres
 
 ## Cara Instalasi
 
@@ -41,13 +40,6 @@ Untuk menambahkan library baru, gunakan perintah `go get` diikuti dengan nama li
 
    ```sh
    go get github.com/username/library
-   ```
-
-   atau
-
-   ```bash
-   go get -u ./...
-
    ```
 
 Setelah menambahkan library, jangan lupa untuk menjalankan `go mod tidy` untuk merapikan dependencies:
