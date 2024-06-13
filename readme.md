@@ -15,7 +15,7 @@
 
    ```sh
 
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/kangtatang/golang-crud-with-fiber.git
    
    cd repo
    ```
